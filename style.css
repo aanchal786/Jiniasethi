@@ -79,39 +79,52 @@ nav a {
 
 /* ---------- About JSFS (new) ---------- */
 .about-jsfs {
-  background-color: #456684;    /* dark slate-blue */
-  color: #fff;
+  background-color: #456684;
+  color: white;
   padding: 60px 20px;
 }
-.about-jsfs .about-content {
+
+.about-jsfs .about-wrapper {
   max-width: 900px;
   margin: 0 auto;
+  text-align: left;
 }
+
 .about-jsfs h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #ffffff;
 }
+
 .about-jsfs p {
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 20px;
   color: #f3f6f9;
 }
+
 .enquire-button {
   display: inline-block;
-  margin-top: 10px;
   padding: 12px 20px;
-  background: transparent;
-  border: 2px solid #fff;
-  color: #fff;
-  border-radius: 6px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
   font-size: 16px;
+  border-radius: 6px;
   text-decoration: none;
   transition: all 0.3s ease;
+  margin-top: 10px;
 }
-.enquire-button .icon { margin-right: 8px; font-size: 18px; }
-.enquire-button:hover { background: #fff; color: #456684; }
+
+.enquire-button .icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.enquire-button:hover {
+  background-color: white;
+  color: #456684;
+}
 
 /* ---------- Feedback ---------- */
 .feedback {

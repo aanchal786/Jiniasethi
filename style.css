@@ -67,6 +67,64 @@ nav a {
   font-weight: bold;
 }
 
+.services {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: left;
+}
+
+.service h3 {
+  color: #e67e22;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.service p {
+  color: #555;
+  font-size: 16px;
+}
+
+.feedback {
+  margin-top: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback blockquote {
+  font-style: italic;
+  color: #444;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.feedback .author {
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+}
+
 footer {
   text-align: center;
   padding: 20px;

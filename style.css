@@ -1,7 +1,10 @@
 /* ---------- Base ---------- */
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* your existing styles */
+}
+
   color: #333;
 }
 footer {

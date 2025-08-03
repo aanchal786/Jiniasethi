@@ -194,3 +194,9 @@ nav a:hover {
   font-weight: bold;
   color: #2c3e50;
 }
+.site-logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}

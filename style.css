@@ -80,6 +80,23 @@ nav a:hover {
   font-weight: 600;
 }
 
+.header-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header-icons a {
+  color: #456684;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header-icons a:hover {
+  color: #2c3e50;
+}
+
 /* ---------- Services ---------- */
 .services {
   padding: 60px 20px;

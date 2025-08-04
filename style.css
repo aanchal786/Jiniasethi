@@ -64,10 +64,11 @@ nav a:hover {
   height: 600px;
   position: relative;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .hero .overlay {
-  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  background: rgba(0, 0, 0, 0.4); /* slightly lighter overlay */
   padding: 80px 20px;
   text-align: center;
   position: absolute;
@@ -75,15 +76,17 @@ nav a:hover {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Move content up */
   align-items: center;
+  padding-top: 100px; /* control vertical position */
 }
 
 .hero h2 {
-  font-size: 48px;
-  margin-bottom: 10px;
+  font-size: 42px;
+  margin: 10px 0;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .header-icons {

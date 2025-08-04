@@ -7,38 +7,47 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- ================= HEADER ================ -->
   <header class="site-header">
-  <div class="header-left">
-  <a href="#" class="site-logo">
-    <img src="images/jsfslogo.PNG" alt="JS Financial Services Logo">
-  </a>
-</div>
+    <div class="header-left">
+      <a href="#" class="site-logo">
+        <img src="images/jsfslogo.PNG" alt="JS Financial Services Logo">
+      </a>
+    </div>
+    <div class="header-center">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li class="dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="#residential">Residential and Investment Loans</a></li>
+              <li><a href="#commercial">Commercial and Business Loans</a></li>
+              <li><a href="#development">Development and Construction Funding</a></li>
+              <li><a href="#smsf">Self-managed Superannuation Funds</a></li>
+              <li><a href="#asset">Asset and Equipment Finance</a></li>
+              <li><a href="#medico">Medico Finance and Loans</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Lenders</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-icons">
+      <a href="tel:0433815156" title="Call us"><i class="fas fa-mobile-alt"></i></a>
+      <a href="mailto:jiniavikram@gmail.com" title="Email us"><i class="fas fa-envelope"></i></a>
+    </div>
+  </header>
 
-  <div class="header-center">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">Lenders</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="header-icons">
-    <a href="tel:0433815156" title="Call us"><i class="fas fa-mobile-alt"></i></a>
-    <a href="mailto:jiniavikram@gmail.com" title="Email us"><i class="fas fa-envelope"></i></a>
-  </div>
-</header>
-
-  <!-- ================= HERO ================ -->
   <section class="hero">
     <div class="overlay">
       <h2>JS Financial Services</h2>
@@ -46,74 +55,38 @@
     </div>
   </section>
 
-  <!-- ================= ABOUT JSFS (new) ================ -->
-  <section class="about-jsfs">
-  <div class="about-wrapper">
-    <h2>About JSFS</h2>
-    <p>
-      JS Financial Solutions is your reputed financial and loan management partner providing
-      financial solutions that are customized to your needs. We provide a range of options for your
-      financing and loans, including solutions for both residential and commercial sectors. We also
-      offer meticulously designed strategies for medical professionals and construction projects.
-    </p>
-    <p>
-      We have access to an extensive range of lender panels, giving you the option to choose the
-      best financing and repayment plan according to your convenience. We offer expert guidance for
-      mortgage, personal, and business loans.
-    </p>
-    <p>
-      You can count on us to help you secure the best loan option and ensure a smooth and
-      stress-free process. Call us at <strong>0433 216 996</strong> to speak with our team.
-    </p>
-
-    <a href="#" class="enquire-button"><span class="icon">📞</span> Enquire Today</a>
-  </div>
-</section>
-
-  <!-- ================= SERVICES ================ -->
-  <section class="services">
+  <section class="services" id="services">
     <h2>Our Services</h2>
     <div class="service-list">
-      <div class="service">
+      <div class="service" id="residential">
         <h3>Residential &amp; Investment Loans</h3>
         <p>Need a home loan or investment property funding? We help you find competitive options tailored to your needs.</p>
       </div>
-      <div class="service">
+      <div class="service" id="commercial">
         <h3>Commercial &amp; Business Loans</h3>
         <p>Whether you're starting or expanding a business, we connect you with the right lenders for your goals.</p>
       </div>
-      <div class="service">
+      <div class="service" id="development">
         <h3>Development &amp; Construction Funding</h3>
         <p>Specialist funding to support your property development from planning through to completion.</p>
       </div>
-      <div class="service">
+      <div class="service" id="smsf">
         <h3>Self-Managed Super Funds</h3>
         <p>Finance property through your SMSF—expert advice and lender arrangements included.</p>
       </div>
-      <div class="service">
+      <div class="service" id="asset">
         <h3>Asset &amp; Equipment Finance</h3>
         <p>Get the right funding to purchase critical business equipment at flexible terms.</p>
       </div>
-      <div class="service">
-        <h3>Asset &amp; Trust Lending</h3>
-        <p>Trust Lending</p>
+      <div class="service" id="medico">
+        <h3>Medico Finance and Loans</h3>
+        <p>Specialized finance solutions for healthcare professionals, tailored to your medical practice needs.</p>
       </div>
     </div>
   </section>
 
-  <!-- ================= FEEDBACK ================ -->
-  <section class="feedback">
-    <blockquote>
-      “If you are looking for a professional mortgage broker who can tailor their advice according
-      to your needs… must contact Jinia from JSFS!!”
-    </blockquote>
-    <p class="author">– A satisfied client</p>
-  </section>
-
-  <!-- ================= FOOTER ================ -->
   <footer>
     <p>© 2025 JS Financial Services</p>
   </footer>
-
 </body>
 </html>

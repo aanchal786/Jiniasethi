@@ -57,6 +57,7 @@ nav a:hover {
 }
 
 /* ---------- Hero ---------- */
+/* ---------- Hero ---------- */
 .hero {
   background-image: url('images/hero-building.jpg');
   background-size: cover;
@@ -64,29 +65,34 @@ nav a:hover {
   height: 600px;
   position: relative;
   color: white;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Modern clean font */
 }
 
 .hero .overlay {
-  background: rgba(0, 0, 0, 0.4); /* slightly lighter overlay */
-  padding: 80px 20px;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.4); /* lighter overlay like OziLend */
   position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Move content up */
+  justify-content: flex-start;
   align-items: center;
-  padding-top: 100px; /* control vertical position */
+  padding-top: 80px; /* move content upward */
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #2c3e50; /* Match OziLend blue-gray */
 }
 
 .hero h2 {
-  font-size: 42px;
-  margin: 10px 0;
-  color: #ffffff;
-  font-weight: 500;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  font-size: 28px;
+  font-weight: 400;
+  color: #2c3e50;
+  margin-top: 10px;
 }
 
 .header-icons {

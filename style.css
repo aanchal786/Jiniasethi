@@ -438,4 +438,51 @@ footer {
   margin-right: 10px;
 }
 
+/* ---------- Feedback Page ---------- */
+.feedback-page {
+  background: #f9fafc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.feedback-container h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.feedback-container p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background: #ffffff;
+  padding: 30px;
+  margin: 20px 0;
+  border-left: 5px solid #456684;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.testimonial .author {
+  text-align: right;
+  font-weight: bold;
+  color: #456684;
+}
+
 

@@ -344,3 +344,11 @@ nav ul li.dropdown:hover .dropdown-menu { display: block; }
   .contact-icons { gap: 10px; }
   .logo img { height: 40px; }
 }
+
+/* Wrap nav + icons on the right side */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 28px; /* space between menu and icons */
+}
+
